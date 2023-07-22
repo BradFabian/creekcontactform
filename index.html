@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="brand">Coldwater Creek</h1>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Coldwater Creek</h3>
+                <ul>
+                    <li>PO Box #25084 </li>
+                    <li>Bethlehem PA 18002</li>
+                    <li>1-888-678-5576</li>
+                    
+                </ul>
+            </div>
+            <div  class="contact">
+                <h3>Email Us</h3>
+                <form>
+                 <div>
+                    <label>Name</label>
+                    <input type="text">
+                    <small>Required</small>
+                 </div>
+                 <div>
+                    <label>Email</label>
+                    <input type="email">
+                    <small>Required</small>
+                 </div>
+                 <div>
+                    <label>Phone Number</label>
+                    <input type="tele">
+                    <small>Required</small>
+                 </div>
+                 <div>
+                    <label>Reason</label>
+                    <select name="issue" id="issue-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="spider">Spider</option>
+                        <option value="goldfish">Goldfish</option>
+                    </select>
+                    <small>Required</small>
+                 </div>
+                
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
